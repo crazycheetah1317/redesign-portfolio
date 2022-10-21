@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Responsive Redesign</title>
+    <link rel="stylesheet" href="redesign-portfolio.css" /> 
+  </head>
+
+  <body>
+      <div class="top"> 
+          <h1>Responsive Redesign</h1>
+      </div>
+
+      <div>
+          <p>In this assignment, students were tasked with picking one page of a website to analyze based
+              on usability and accessibility issues. After identifying an applicable webpage, students were then
+              asked to redesign the page by making low-fidelity wireframes and a high-fidelity prototype,
+              accompanied by a style guide. Using these designs, students then had to recreate the webpage,
+              modeled as close as possible to the final prototype. 
+          </p>
+      </div>
+      
+      <section>
+        <h2>Part 1: Identifying Usability Problems</h2>
+        <p>The website I chose to redesign was Nitro Bar, a cafe with two locations in Newport and one in Providence.
+            Click <a href="https://www.thenitrocart.com/home">here</a> to see the original page.
+        </p>
+        
+        <div class="ss-flex-grid">
+            <div class="ss-web">
+                <img src="nb-initial.png">
+                <p>Initial page after entering the website</p>
+            </div>
+            <div class="ss-web">
+                <img src="nb-shop.png">
+                <p>Interface after clicking "Merch"</p>
+            </div>
+            <div class="ss-web">
+                <img src="nb-home1.png">
+                <p>"Home" page (part 1)</p>
+            </div>
+            <div class="ss-web">
+                <img src="nb-home2.png">
+                <p>"Home" page (part 2)</p>
+            </div>
+            <div class="ss-web">
+                <img src="nb-home3.png">
+                <p>"Home" page (part 3)</p>
+            </div>
+            <div class="ss-web">
+                <img src="nb-home4.png">
+                <p>"Home" page (part 4)</p>
+            </div>
+        </div>
+
+        <div class="parts-flex">
+            <div>
+                <div>
+                    <h3>Learnability</h3>
+                </div>
+                <div>
+                    <h4>Is it easy to learn for new users?</h4>
+                </div>
+                <div>
+                    <ul>
+                        <li>When users first click on the link to enter the website, there’s only two buttons that users can select so 
+                            it’s unclear whether that screen is the homepage and/or if it leads to other pages (menu, contact us, about, etc).</li>
+                        <li>Once the user plays around with the two buttons, they will see that selecting “Merch” will bring them to the 
+                            main landing page (second screenshot above). This is misleading because “Merch” doesn’t exclusively lead users to the 
+                            shopping page; it opens a new tab with a different interface, almost like a portal into another dimension of the website.</li>
+                        <li>When users click on the icon on the top left of the navigation bar, it brings them back to the initial interface (in the screenshot). 
+                            This causes a lot of confusion over what the main landing page is and what the purpose of the initial interface is if it doesn’t 
+                            serve an important role.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h3>Memorability</h3>
+                </div>
+                <div>
+                    <h4>Is it easy to recall what to do for casual users?</h4>
+                </div>
+                <div>
+                    <ul>
+                        <li>On the initial interface, the label of the button being “Merch” can still be misleading.</li>
+                        <li>On the supposed "Home" page, there might be confusion over what links go to what pages.</li>
+                        <li>Once users know that they are supposed to click on “Merch” to access the rest of the main landing page and navigation bar, 
+                            they shouldn’t have an issue remembering what to do for the future, but it would still be more convenient if the website link 
+                            brought them directly to the homepage.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h3>Efficiency</h3>
+                </div>
+                <div>
+                    <h4>Can typical tasks be done quickly for frequent users?</h4>
+                </div>
+                <div>
+                    <ul>
+                        <li>The navigation bar of the main landing is still disorganized: “Merch” brings the user to the shopping page, which is the second 
+                            tab in the navigation bar (“Order Online” is the first tab) whereas the “Home” tab is the fourth element of the navigation bar when 
+                            typically the homepage should be the first screen of a website.</li>
+                        <li>The buttons and layout on the "Home" page are disorganized too. It's hard to see the buttons that are placed on top of the images.
+                            There's also no structure to the way the buttons and pictures are displayed.</li>
+                        <li>One major aspect that I think users would want to see on the website is the cafe’s menu. In the current design there’s no link or 
+                            picture to a menu.</li>
+                        <li>Some of the other links aren't necessarily essential.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h3>Accessibility</h3>
+                </div>
+                <div>
+                    <h4>Do you agree with the problems detected?</h4>
+                </div>
+                <div>
+                    <ul>
+                        <li>The detected accessibility problems indicate that the social media buttons at the bottom of the page and there are some suspicious 
+                            alternative texts. It shows alerts for 6 suspicious alternative texts, 2 possible headings, and 6 Noscript elements as well as 5 errors:
+                            2 empty buttons and 3 empty links. I agree with these problems because as I was exploring the page myself, I found that a few of the links
+                            in the navigation bar did not work, and some linked to the same page. There are, however, 9 ARIA labels overall, which I think is a reasonable 
+                            amount, given how concise the webpage is.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="parts-flex">
+            <h2>Part 2: Visual Redesign</h2>
+
+            <div>
+                <div>
+                    <h3>Low-Fidelity Wireframes</h3>
+                    <div>
+                        <h4>Desktop</h4>
+                        <p></p>
+                        <img src="desktop.png">
+                    </div>
+
+                    <div>
+                        <h4>Tablet</h4>
+                        <img src="tablet.png">
+                    </div>
+
+                    <div>
+                        <h4>Mobile</h4>
+                        <img src="mobile.png">
+                    </div>  
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h3>Visual Design Style Guide</h3>
+                    <img src="style-guide.png">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h3>Hi-Fidelity Prototype</h3>
+                    <div>
+                        <img src="figma-desktop.png">
+                    </div>
+
+                    <div>
+                        <img src="figma-tab-mob.png">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </section>
+
+      <section>
+        <div class="parts-flex">
+            <h2>Part 3: Responsive Redesign</h2>
+
+            <div>
+                <div>
+                    <p></p>
+                    <p>
+                        Click <a href="https://crazycheetah1317.github.io/responsive-redesign/redesign.html">here</a> to see my redesigned page!
+                    </p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+  </body>
+
+</html>
