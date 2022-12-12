@@ -50,6 +50,16 @@ li {
     padding-top: 3rem;
 }
 
+.back-button {
+    width: 80px;
+    height: 40px;
+    background-color: var(--intro-box-color);
+    border: 3px solid gray;
+    color: var(--text-color);
+    font-weight: bold;
+    border-radius: 12px;
+}
+
 /* Main */
 body > div:nth-of-type(2) {
     width: 90%;
